@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{905C906E-8FE0-4338-A6C7-34A8D7195FC4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CppLib</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CppLib.cpp" />
+    <ClCompile Include="DynamicProgramming\CoinChange.cpp" />
+    <ClCompile Include="DynamicProgramming\DynamicProgramming.cpp" />
+    <ClCompile Include="DynamicProgramming\Knapsack.cpp" />
+    <ClCompile Include="DynamicProgramming\LongestPalindromeSubsequence.cpp" />
+    <ClCompile Include="DynamicProgramming\LongestSubsequence.cpp" />
+    <ClCompile Include="DynamicProgramming\MaxSubArraySum.cpp" />
+    <ClCompile Include="DynamicProgramming\RodCutting.cpp" />
+    <ClCompile Include="DynamicProgramming\SubsetSumDetection.cpp" />
+    <ClCompile Include="DynamicProgramming\SubsetsWithSameSum.cpp" />
+    <ClCompile Include="Toolkit\Digraph.cpp" />
+    <ClCompile Include="Toolkit\Dijkstra.cpp" />
+    <ClCompile Include="Toolkit\FlowNetwork.cpp" />
+    <ClCompile Include="Toolkit\Geometry2D.cpp" />
+    <ClCompile Include="Toolkit\Misc.cpp" />
+    <ClCompile Include="Toolkit\Samples.cpp" />
+    <ClCompile Include="Toolkit\Cpp_11_14.cpp" />
+    <ClCompile Include="Toolkit\FileInputAndOuput.cpp" />
+    <ClCompile Include="Toolkit\Geometry3D.cpp" />
+    <ClCompile Include="Toolkit\Graph.cpp" />
+    <ClCompile Include="Toolkit\Grid.cpp" />
+    <ClCompile Include="Toolkit\Mathematics.cpp" />
+    <ClCompile Include="Toolkit\Scheduling.cpp" />
+    <ClCompile Include="Toolkit\Set.cpp" />
+    <ClCompile Include="Toolkit\Strings.cpp" />
+    <ClCompile Include="Toolkit\Toolkit.cpp" />
+    <ClCompile Include="Toolkit\Tree.cpp" />
+    <ClCompile Include="Toolkit\Utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input_graph_articulation_point.txt" />
+    <Text Include="input_graph_bellman_ford.txt" />
+    <Text Include="input_graph_cg_tiny.txt" />
+    <Text Include="input_graph_dijkstra.txt" />
+    <Text Include="input_graph_EWDAG_tiny.txt" />
+    <Text Include="input_graph_EWD_large.txt" />
+    <Text Include="input_graph_EWD_medium.txt" />
+    <Text Include="input_graph_EWD_tiny.txt" />
+    <Text Include="input_graph_floyd_warshall.txt" />
+    <Text Include="input_graph_johnson.txt" />
+    <Text Include="input_graph_mst_medium.txt" />
+    <Text Include="input_graph_mst_tiny.txt" />
+    <Text Include="input_graph_SPFA.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DynamicProgramming\Ref 01.pdf" />
+    <None Include="DynamicProgramming\Ref 02.pdf" />
+    <None Include="DynamicProgramming\Ref 03.pdf" />
+    <None Include="DynamicProgramming\Ref 04.pdf" />
+    <None Include="input_graph_toposort.txt" />
+    <None Include="input_graph_tiny.txt" />
+    <None Include="input_grid_flood_fill.txt" />
+    <None Include="input_union_find_large.txt" />
+    <None Include="input_union_find_medium.txt" />
+    <None Include="input_union_find_Tiny.txt" />
+    <None Include="Toolkit\Ref 01 EulerianTour.pdf" />
+    <None Include="Toolkit\Ref 02 EulerianPathAndCircuit.pdf" />
+    <None Include="Toolkit\Ref 03 64MaxFlow.pdf" />
+    <None Include="Toolkit\Ref 04 NetworkFlowI.pdf" />
+    <None Include="Toolkit\Ref 05 NetworkFlowII.pdf" />
+    <None Include="Toolkit\Ref 06 NetworkFlowIII.pdf" />
+    <None Include="Toolkit\Ref 07 Some Notes on Johnson%27s Algorithm For Scheduling.pdf" />
+    <None Include="Toolkit\Ref 08 Job Shop Scheduling.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="input_graph_articulation_point.jpg" />
+    <Image Include="input_graph_bellman_ford.jpg" />
+    <Image Include="input_graph_cg_tiny.jpg" />
+    <Image Include="input_graph_floyd_warshall.jpg" />
+    <Image Include="input_graph_tiny.jpg" />
+    <Image Include="input_graph_toposort.JPG" />
+    <Image Include="output_graph_articulation_point.jpg" />
+    <Image Include="output_graph_bellman_ford.jpg" />
+    <Image Include="output_graph_johnson.jpg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

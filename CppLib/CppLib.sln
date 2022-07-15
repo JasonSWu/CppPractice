@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppLib", "CppLib.vcxproj", "{905C906E-8FE0-4338-A6C7-34A8D7195FC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{905C906E-8FE0-4338-A6C7-34A8D7195FC4}.Debug|x64.ActiveCfg = Debug|x64
+		{905C906E-8FE0-4338-A6C7-34A8D7195FC4}.Debug|x64.Build.0 = Debug|x64
+		{905C906E-8FE0-4338-A6C7-34A8D7195FC4}.Debug|x86.ActiveCfg = Debug|Win32
+		{905C906E-8FE0-4338-A6C7-34A8D7195FC4}.Debug|x86.Build.0 = Debug|Win32
+		{905C906E-8FE0-4338-A6C7-34A8D7195FC4}.Release|x64.ActiveCfg = Release|x64
+		{905C906E-8FE0-4338-A6C7-34A8D7195FC4}.Release|x64.Build.0 = Release|x64
+		{905C906E-8FE0-4338-A6C7-34A8D7195FC4}.Release|x86.ActiveCfg = Release|Win32
+		{905C906E-8FE0-4338-A6C7-34A8D7195FC4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://solarpowerwu.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CppLib.vcxproj
+		SccLocalPath1 = .
+	EndGlobalSection
+EndGlobal

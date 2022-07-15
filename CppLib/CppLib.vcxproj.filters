@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CppLib.cpp" />
+    <ClCompile Include="Toolkit\Cpp_11_14.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\FileInputAndOuput.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Graph.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Mathematics.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Strings.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Tree.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Utility.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProgramming\MaxSubArraySum.cpp">
+      <Filter>DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProgramming\DynamicProgramming.cpp">
+      <Filter>DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProgramming\Knapsack.cpp">
+      <Filter>DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProgramming\RodCutting.cpp">
+      <Filter>DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Toolkit.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProgramming\SubsetsWithSameSum.cpp">
+      <Filter>DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProgramming\SubsetSumDetection.cpp">
+      <Filter>DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Grid.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProgramming\CoinChange.cpp">
+      <Filter>DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Samples.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Set.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Geometry2D.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Geometry3D.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\FlowNetwork.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Scheduling.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProgramming\LongestSubsequence.cpp">
+      <Filter>DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Misc.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProgramming\LongestPalindromeSubsequence.cpp">
+      <Filter>DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Digraph.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Dijkstra.cpp">
+      <Filter>Toolkit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="input_graph_tiny.txt">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="input_graph_toposort.txt">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="input_grid_flood_fill.txt">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="input_union_find_large.txt">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="input_union_find_medium.txt">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="input_union_find_Tiny.txt">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="DynamicProgramming\Ref 01.pdf">
+      <Filter>DynamicProgramming</Filter>
+    </None>
+    <None Include="DynamicProgramming\Ref 02.pdf">
+      <Filter>DynamicProgramming</Filter>
+    </None>
+    <None Include="DynamicProgramming\Ref 03.pdf">
+      <Filter>DynamicProgramming</Filter>
+    </None>
+    <None Include="DynamicProgramming\Ref 04.pdf">
+      <Filter>DynamicProgramming</Filter>
+    </None>
+    <None Include="Toolkit\Ref 01 EulerianTour.pdf">
+      <Filter>Toolkit</Filter>
+    </None>
+    <None Include="Toolkit\Ref 02 EulerianPathAndCircuit.pdf">
+      <Filter>Toolkit</Filter>
+    </None>
+    <None Include="Toolkit\Ref 03 64MaxFlow.pdf">
+      <Filter>Toolkit</Filter>
+    </None>
+    <None Include="Toolkit\Ref 04 NetworkFlowI.pdf">
+      <Filter>Toolkit</Filter>
+    </None>
+    <None Include="Toolkit\Ref 05 NetworkFlowII.pdf">
+      <Filter>Toolkit</Filter>
+    </None>
+    <None Include="Toolkit\Ref 06 NetworkFlowIII.pdf">
+      <Filter>Toolkit</Filter>
+    </None>
+    <None Include="Toolkit\Ref 07 Some Notes on Johnson%27s Algorithm For Scheduling.pdf">
+      <Filter>Toolkit</Filter>
+    </None>
+    <None Include="Toolkit\Ref 08 Job Shop Scheduling.pdf">
+      <Filter>Toolkit</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input_graph_articulation_point.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="input_graph_bellman_ford.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="input_graph_cg_tiny.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="input_graph_dijkstra.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="input_graph_EWD_large.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="input_graph_EWD_medium.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="input_graph_EWD_tiny.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="input_graph_EWDAG_tiny.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="input_graph_floyd_warshall.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="input_graph_johnson.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="input_graph_mst_medium.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="input_graph_mst_tiny.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="input_graph_SPFA.txt">
+      <Filter>Data</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="input_graph_articulation_point.jpg">
+      <Filter>Data</Filter>
+    </Image>
+    <Image Include="input_graph_bellman_ford.jpg">
+      <Filter>Data</Filter>
+    </Image>
+    <Image Include="input_graph_cg_tiny.jpg">
+      <Filter>Data</Filter>
+    </Image>
+    <Image Include="input_graph_floyd_warshall.jpg">
+      <Filter>Data</Filter>
+    </Image>
+    <Image Include="input_graph_tiny.jpg">
+      <Filter>Data</Filter>
+    </Image>
+    <Image Include="input_graph_toposort.JPG">
+      <Filter>Data</Filter>
+    </Image>
+    <Image Include="output_graph_articulation_point.jpg">
+      <Filter>Data</Filter>
+    </Image>
+    <Image Include="output_graph_bellman_ford.jpg">
+      <Filter>Data</Filter>
+    </Image>
+    <Image Include="output_graph_johnson.jpg">
+      <Filter>Data</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Toolkit">
+      <UniqueIdentifier>{93a8afe1-dc1a-4fea-8900-51e839df6697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicProgramming">
+      <UniqueIdentifier>{d429042a-ffa0-4ea7-8175-8e715fbbee56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{6eec6dec-9ee8-4926-83f2-1da9fa5ead14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
